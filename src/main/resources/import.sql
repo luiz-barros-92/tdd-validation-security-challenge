@@ -1,7 +1,7 @@
 INSERT INTO tb_user (name, email, password) VALUES ('Ana','ana@gmail.com', '$2a$10$05MSuTokUE9blYeQpz4WOeoGtXgJNA8MZAzBYGyvM/PjWT7V73Pzi');
-INSERT INTO tb_user (name, email, password) VALUES ('Alex','alex@gmail.com', '$2a$10$uucgV3XWv9Nz/9ZQg/OCruXaTudP3hsf.H6FI4zyeNnsW0jV5yBk2');
+INSERT INTO tb_user (name, email, password) VALUES ('Bob','bob@gmail.com', '$2a$10$uucgV3XWv9Nz/9ZQg/OCruXaTudP3hsf.H6FI4zyeNnsW0jV5yBk2');
 
-INSERT INTO tb_role (authority) VALUES ('ROLE_OPERATOR');
+INSERT INTO tb_role (authority) VALUES ('ROLE_CLIENT');
 INSERT INTO tb_role (authority) VALUES ('ROLE_ADMIN');
 
 INSERT INTO tb_user_role (user_id, role_id) VALUES (1, 1);
