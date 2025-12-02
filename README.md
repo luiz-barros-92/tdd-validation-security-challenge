@@ -1,4 +1,4 @@
-# TDD Validation and Security Challebge
+# TDD Validation and Security Challenge
 [DevSuperior](https://devsuperior.com.br/)
 
 Implement the necessary features for the tests of the project to pass.
